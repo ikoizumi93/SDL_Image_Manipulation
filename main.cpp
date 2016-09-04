@@ -41,7 +41,7 @@ int main(int argc, char *args[])
                 SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
                 SDL_RenderClear(renderer);
 
-                //Render red square
+                //Render red rectangle
                 SDL_Rect fillRect = {SCREEN_WIDTH / 4, SCREEN_HEIGHT / 4, SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2};
                 SDL_SetRenderDrawColor(renderer, 0xFF, 0x00, 0x00, 0xFF);
                 SDL_RenderFillRect(renderer, &fillRect);
